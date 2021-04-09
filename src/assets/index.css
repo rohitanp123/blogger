@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.inputBox {
+  border: none;
+  outline: none;
+  width: 300px;
+  border-radius: 5px;
+  font-size: medium;
+}
+.inputBoxContainer {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px;
+  width: fit-content;
+  margin: 10px 0 0 0;
+}
+.signInContainer {
+  border: 1px solid gray;
+  width: fit-content;
+  flex-direction: column;
+  display: flex;
+  padding: 30px 100px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px 5px rgb(168, 160, 160);
+}
+.actionButton {
+  outline: none;
+  background-color: rgb(218, 85, 140);
+  border: none;
+  color: #fff;
+  padding: 10px 50px;
+  border: none;
+  width: fit-content;
+  border-radius: 5px;
+  align-self: center;
+  margin: 30px 0 0 0;
+  cursor: pointer;
+}
+.signInpage {
+  display: flex;
+  justify-content: center;
+  padding-top: 8%;
+}
+.inputContainer {
+  margin: 10px 0;
+}
+.heading {
+  margin: 0 0 20px 0;
+}
+.profilepicContainer {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid gray;
+  margin: 0 0 10px 0;
+}
+.profileImage {
+  width: 200px;
+}
+.sidbar-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.caption {
+  color: gray;
+}
+.sidebar-container {
+  background-color: rgb(252, 202, 197);
+  min-width: 200px;
+  width: 30%;
+  padding: 50px 0;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 50px;
+  background-color: slateblue;
+}
+.simple-button {
+  border: none;
+  outline: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid rgb(186, 177, 247);
+  background-color: rgb(250, 198, 219);
+}
+.footer-container {
+  background-color: rgb(181, 215, 250);
+  padding: 10px 50px;
+  justify-content: center;
+  display: flex;
+}
+.dashboard-main {
+  display: flex;
+}
+.homepage-container {
+  padding: 20px 20px;
+  /* display: block; */
+  width: 100%;
+}
+.title-input {
+  width: 100%;
+  padding: 8px 0;
+  border: 2px solid rgb(186, 177, 247);
+  border-radius: 5px;
+  outline: rgb(186, 177, 247);
+  margin: 5px 0;
+}
+.desc-input {
+  width: 100%;
+  padding: 8px 0;
+  border: 2px solid rgb(186, 177, 247);
+  border-radius: 5px;
+  outline: rgb(186, 177, 247);
+  margin: 5px 0;
+  resize: none;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.create-post-container {
+  border: 2px solid slateblue;
+  border-radius: 5px;
+  padding: 20px;
+}
+.inputbox-container{
+  width: 100%;
+}
+.posts-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 0 ;
+}
+.navLink{
+  text-decoration: none;
+  color: #fff;
+  margin: 0 10px;
+}
+.navlink-container{
+  display: flex;
+}
+.post-user-image{
+  width: 40px;
+  height: 100%;
+}
+.post-user-image-container{
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.flex-row{
+  display: flex;
+  align-items: center;
+}
+.post-username{
+  font-size: 18px;
+  margin: 0 0 0 10px
+}
+.singlePost-container{
+  background-color: rgb(212, 211, 211);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+.post-body-container{
+  margin: 0 0 0 50px ;
+}
+.like-button{
+  border: none;
+  outline: none;
+  background-color: aliceblue;
+  padding: 6px 10px;
+  margin: 0 10px 0 0;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid rgb(186, 177, 247);
+}
+.post-body-container-bottom{
+  margin: 0 0 0 50px ;
+  margin-top: 10px;
+}
